@@ -1,0 +1,79 @@
+meta:
+  id: aamp_v2
+  file-extension:
+    - aamp
+    - bxml
+    - bas
+    - baglblm
+    - baglccr
+    - baglclwd
+    - baglcube
+    - bagldof
+    - baglenv
+    - baglenvset
+    - baglfila
+    - bagllmap
+    - bagllref
+    - baglmf
+    - baglshpp
+    - baiprog
+    - baslist
+    - bassetting
+    - batcl
+    - batcllist
+    - bawareness
+    - bawntable
+    - bbonectrl
+    - bchemical
+    - bchmres
+    - bdemo
+    - bdgnenv
+    - bdmgparam
+    - bdrop
+    - bgapkginfo
+    - bgapkglist
+    - bgenv
+    - bglght
+    - bgmsconf
+    - bgparamlist
+    - bgsdw
+    - bksky
+    - blifecondition
+    - blod
+    - bmodellist
+    - bmscdef
+    - bmscinfo
+    - bnetfp
+    - bphyscharcon
+    - bphyscontact
+    - bphysics
+    - bphyslayer
+    - bphysmaterial
+    - bphyssb
+    - bphyssubmat
+    - bptclconf
+    - brecipe
+    - brgbw
+    - brgcon
+    - brgconfig
+    - brgconfiglist
+    - bsfbt
+    - bsft
+    - bshop
+    - bumii
+    - bvege
+    - bactcapt
+  endian: le
+seq:
+  - id: magic
+    type: str
+    size: 4
+    encoding: utf-8
+  - id: version
+    type: u1
+  - id: flags
+    type: u1
+    repeat: expr
+    repeat-expr: 7
+  - id: file_size
+    type: u2le
