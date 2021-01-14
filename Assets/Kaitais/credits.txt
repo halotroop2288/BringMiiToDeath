@@ -1,4 +1,0 @@
-KSY files created by the RiiConnect24 team and community.
-
-Special thanks to HEYimHeroic who made the Switch and Gen 2 (Wii U, Miitomo, 3DS) KSY files,
-and to ZeldaMods.org for (partially) documenting AAMP version 2's data structure.

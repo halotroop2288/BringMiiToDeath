@@ -1,0 +1,5 @@
+KSY files created by the RiiConnect24 team and community, licensed under the GNU Affero General Public License version 3.0
+For more information on this license, see the LICENSE file inside this directory.
+
+Special thanks to HEYimHeroic who made the Switch and Gen 2 (Wii U, Miitomo, 3DS) KSY files,
+and to ZeldaMods.org for (partially) documenting AAMP version 2's data structure.
